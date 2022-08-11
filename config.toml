@@ -1,0 +1,49 @@
+baseURL = 'http://jesskperry.github.io/'
+languageCode = 'en-us'
+title = 'Jessica Perry'
+theme = "showfolio"
+
+[params]
+  name = "Jessica Perry"
+  description = "My portfolio."
+  author = "Jessica Perry"
+  authorEmail = "name@example.com"
+  authorImage = "/photo.png"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2022 - Jessica Perry"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hey 👋 I'm Jessica Perry"
+  tagline = "UI & UX Designer"
+  description = "I develop functional user interfaces and provide a valuable experience to customers."
+  contact = "https://twitter.com/"
+
+[params.homepage.resume]
+  skills = ["Visual Design", "Product Development"]
+
+[[params.homepage.porfolio]]
+  title = "Project 1"
+  image = "portfolio-placeholder.jpg"
+
+[[params.homepage.porfolio]]
+  title = "Project 2"
+  image = "portfolio-placeholder.jpg"
+
+[[params.homepage.porfolio]]
+  title = "Project 3"
+  image = "portfolio-placeholder.jpg"
+
+[[params.homepage.resume.work]]
+  name = "Coming soon!"
+  role = ""
+  duration = ""
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
